@@ -1,0 +1,47 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h2 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 64px;
+    color: #DAAD6A;
+}
+
+.total {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 42px;
+    color: #DAAD6A;
+}
+
+.total-card {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.clear {
+    color: #DAAD6A;
+    margin-right: 30px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.parolor {
+    height: 15em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
