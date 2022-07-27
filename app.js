@@ -31,7 +31,7 @@ function drawMenu() {
     iceCream.forEach(item => {
         template += `
         <div class="col-3 p-2 m-2 card" onclick="order('${item.name}')">
-            <img class="img-fluid parolor" src="${item.image}"
+            <img class="img-fluid" src="${item.image}"
             <div class="justify-content-evenly text-center p-2">
                 <p><span>${item.name}</span> <span>$${item.price}</span></p>
             </div>
