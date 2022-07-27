@@ -76,3 +76,4 @@ function clearOrders() {
     orders = []
     drawOrders()
 }
+
